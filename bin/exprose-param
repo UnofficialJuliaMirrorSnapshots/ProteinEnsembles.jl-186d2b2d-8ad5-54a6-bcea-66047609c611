@@ -1,0 +1,8 @@
+#!/usr/bin/env julia
+
+# Run ExProSE auto-parameterisation from command line
+# Run with -h to see options
+
+using ProteinEnsembles
+
+paramfromshell(ProteinEnsembles.parsecommandlineparam())

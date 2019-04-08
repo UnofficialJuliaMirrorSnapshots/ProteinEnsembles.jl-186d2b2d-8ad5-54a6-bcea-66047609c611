@@ -1,0 +1,8 @@
+#!/usr/bin/env julia
+
+# Run ExProSE from command line
+# Run with -h to see options
+
+using ProteinEnsembles
+
+runfromshell(ProteinEnsembles.parsecommandlinerun())
